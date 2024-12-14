@@ -1,0 +1,30 @@
+source "https://rubygems.org"
+
+# Rails
+gem "rails", "~> 8.0.0"
+gem "pg"
+gem "puma", ">= 5.0"
+gem "bcrypt", "~> 3.1.7"
+gem "tzinfo-data", platforms: %i[ windows jruby ]
+gem "solid_cache"
+gem "solid_queue", "~> 1.0.2"
+gem "solid_cable"
+gem "bootsnap", require: false
+gem "kamal", require: false
+gem "thruster", require: false
+gem "stringio", "~> 3.1.2"  # Add specific version to resolve warning
+
+# Add by project
+gem "dotenv-rails"
+gem "rack-cors"
+gem "jwt"
+gem "httparty"
+gem "pgvector"
+gem "neighbor"
+gem "aws-sdk-s3", "~> 1.173"
+
+group :development, :test do
+  gem "debug", platforms: %i[ mri windows ], require: "debug/prelude"
+  gem "brakeman", require: false
+  gem "rubocop-rails-omakase", require: false
+end

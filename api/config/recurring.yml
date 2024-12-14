@@ -1,0 +1,10 @@
+default: &default
+  some_recurring_job:
+    class: ""
+    schedule: "every 5 minutes"
+
+development:
+  <<: *default
+
+production:
+  <<: *default

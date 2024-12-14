@@ -1,0 +1,42 @@
+{
+  "folders": [
+    {
+      "name": "root",
+      "path": "."
+    },
+    {
+      "name": "chat-api",
+      "path": "chat-api"
+    },
+    {
+      "name": "api",
+      "path": "api"
+    },
+    {
+      "name": "webapp",
+      "path": "webapp"
+    },
+    {
+      "name": "api-docs",
+      "path": "api-docs"
+    },
+    {
+      "name": "deploy",
+      "path": "deploy"
+    }
+  ],
+  "settings": {
+    "files.exclude": {
+      "chat-api": true,
+      "api": true,
+      "webapp": true,
+      "deploy": true,
+      "api-docs": true
+    },
+    "python.analysis.extraPaths": ["app"],
+    "workbench.colorTheme": "Monokai",
+    "workbench.preferredDarkColorTheme": "Monokai",
+    "workbench.preferredHighContrastColorTheme": "Visual Studio Dark",
+    "terminal.integrated.fontSize": 15
+  }
+}

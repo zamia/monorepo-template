@@ -1,0 +1,31 @@
+[tool.poetry]
+authors = ["medal <medal@animos.ai>"]
+description = ""
+name = "chat-api"
+package-mode = false
+readme = "README.md"
+version = "0.1.0"
+
+[tool.poetry.dependencies]
+aiofiles = "^24.1.0"
+fastapi = {extras = ["standard"], version = "^0.115.4"}
+jinja2 = "^3.1.4"
+nest-asyncio = "^1.6.0"
+psycopg2-binary = "^2.9.10"
+pydantic = "^2.9.2"
+pytest = "^8.3.4"
+pytest-asyncio = "^0.24.0"
+python = "^3.12"
+python-dotenv = "^1.0.1"
+sqlalchemy = "^2.0.36"
+
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core"]
+
+[tool.pytest.ini_options]
+python_files = ["test_*.py"]
+pythonpath = [
+  ".",
+]
+testpaths = ["tests"]

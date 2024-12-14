@@ -1,0 +1,65 @@
+**/.DS_store
+*.log
+.env
+.env.**
+
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# FastAPI
+.env
+
+# IDEs and Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Operating System
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Database
+*.sqlite3
+
+# Testing
+.coverage
+.pytest_cache/
+htmlcov/
+
+# Project specific
+*.db
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# Mypy
+.mypy_cache/
+
+# Pytest
+.pytest_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+node_modules
